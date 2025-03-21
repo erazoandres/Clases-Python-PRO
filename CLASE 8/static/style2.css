@@ -1,0 +1,20 @@
+@keyframes mover_titulo {
+    0%{
+        font-size: xx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: blue;
+        text-shadow: rgb(186, 56, 56) 1px 1px 1px;
+
+    }
+  
+    50%{
+        font-size: xx-small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: green;
+        text-shadow: black 1px 1px 1px;
+    }
+  }
+  
+  h1{
+    animation: mover_titulo 8s infinite ease-in-out;
+  }

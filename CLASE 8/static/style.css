@@ -1,0 +1,14 @@
+@keyframes mover_titulo {
+  0%{
+    transform: translate(0%,50%);
+  }
+
+  50%{
+    transform: translate(70%,50%);
+  }
+}
+
+h1{
+  animation: mover_titulo 8s infinite ease-in-out;
+}
+
